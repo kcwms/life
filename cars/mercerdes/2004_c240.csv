@@ -1,0 +1,137 @@
+Group Name,Element,Value
+,Suggested VIN,
+,Error Code,0
+,Possible Values,
+,Additional Error Text,
+,Error Text,0 - VIN decoded clean. Check Digit (9th position) is correct
+,Vehicle Descriptor,WDBRF61J*4F
+Active Safety System,Anti-lock Braking System (ABS),
+Active Safety System,Electronic Stability Control (ESC),
+Active Safety System,Traction Control,
+Active Safety System,Tire Pressure Monitoring System (TPMS) Type,
+Active Safety System,Active Safety System Note,
+Active Safety System,Auto-Reverse System for Windows and Sunroofs,
+Active Safety System,Automatic Pedestrian Alerting Sound (for Hybrid and EV only),
+Active Safety System,Event Data Recorder (EDR),
+Active Safety System,Keyless Ignition,
+Active Safety System,SAE Automation Level From,
+Active Safety System,SAE Automation Level To,
+Active Safety System / 911 Notification,Automatic Crash Notification (ACN) / Advanced Automatic Crash Notification (AACN),
+Active Safety System / Backing Up and Parking,Backup Camera,
+Active Safety System / Backing Up and Parking,Parking Assist,
+Active Safety System / Backing Up and Parking,Rear Cross Traffic Alert,
+Active Safety System / Backing Up and Parking,Rear Automatic Emergency Braking,
+Active Safety System / Forward Collision Prevention,Crash Imminent Braking (CIB),
+Active Safety System / Forward Collision Prevention,Forward Collision Warning (FCW),
+Active Safety System / Forward Collision Prevention,Dynamic Brake Support (DBS),
+Active Safety System / Forward Collision Prevention,Pedestrian Automatic Emergency Braking (PAEB),
+Active Safety System / Lane and Side Assist,Blind Spot Warning (BSW),
+Active Safety System / Lane and Side Assist,Lane Departure Warning (LDW),
+Active Safety System / Lane and Side Assist,Lane Keeping Assistance (LKA),
+Active Safety System / Lane and Side Assist,Blind Spot Intervention (BSI),
+Active Safety System / Lane and Side Assist,Lane Centering Assistance,
+Active Safety System / Lighting Technologies,Daytime Running Light (DRL),
+Active Safety System / Lighting Technologies,Headlamp Light Source,
+Active Safety System / Lighting Technologies,Semiautomatic Headlamp Beam Switching,
+Active Safety System / Lighting Technologies,Adaptive Driving Beam (ADB),
+Active Safety System / Maintaining Safe Distance,Adaptive Cruise Control (ACC),
+Engine,Engine Number of Cylinders,6
+Engine,Displacement (CC),2600.00
+Engine,Displacement (CI),158.661734646303
+Engine,Displacement (L),2.60
+Engine,Engine Stroke Cycles,
+Engine,Engine Model,
+Engine,Engine Power (kW),125.277600
+Engine,Fuel Type - Primary,Gasoline
+Engine,Valve Train Design,
+Engine,Engine Configuration,V-Shaped
+Engine,Fuel Type - Secondary,
+Engine,Fuel Delivery / Fuel Injection Type,
+Engine,Engine Brake (hp) From,168.00
+Engine,Cooling Type,
+Engine,Engine Brake (hp) To,
+Engine,Electrification Level,
+Engine,Other Engine Info,
+Engine,Turbo,
+Engine,Top Speed (MPH),
+Engine,Engine Manufacturer,
+Exterior / Body,Body Class,Sedan/Saloon
+Exterior / Body,Doors,4
+Exterior / Body,Windows,
+Exterior / Body,Wheel Base Type,
+Exterior / Body,Track Width (inches),
+Exterior / Bus,Bus Length (feet),
+Exterior / Bus,Bus Floor Configuration Type,Not Applicable
+Exterior / Bus,Bus Type,Not Applicable
+Exterior / Bus,Other Bus Info,
+Exterior / Dimension,Gross Vehicle Weight Rating From,
+Exterior / Dimension,Bed Length (inches),
+Exterior / Dimension,Curb Weight (pounds),
+Exterior / Dimension,Wheel Base (inches) From,
+Exterior / Dimension,Wheel Base (inches) To,
+Exterior / Dimension,Gross Combination Weight Rating From,
+Exterior / Dimension,Gross Combination Weight Rating To,
+Exterior / Dimension,Gross Vehicle Weight Rating To,
+Exterior / Motorcycle,Custom Motorcycle Type,Not Applicable
+Exterior / Motorcycle,Motorcycle Suspension Type,Not Applicable
+Exterior / Motorcycle,Motorcycle Chassis Type,Not Applicable
+Exterior / Motorcycle,Other Motorcycle Info,
+Exterior / Trailer,Trailer Type Connection,Not Applicable
+Exterior / Trailer,Trailer Body Type,Not Applicable
+Exterior / Trailer,Trailer Length (feet),
+Exterior / Trailer,Other Trailer Info,
+Exterior / Truck,Bed Type,Not Applicable
+Exterior / Truck,Cab Type,Not Applicable
+Exterior / Wheel tire,Number of Wheels,
+Exterior / Wheel tire,Wheel Size Front (inches),
+Exterior / Wheel tire,Wheel Size Rear (inches),
+General,Destination Market,
+General,Make,MERCEDES-BENZ
+General,Manufacturer Name,MERCEDES-BENZ CARS
+General,Model,C-Class
+General,Model Year,2004
+General,Plant City,BRERNEN
+General,Series,C240
+General,Trim,
+General,Vehicle Type,PASSENGER CAR
+General,Plant Country,GERMANY
+General,Plant Company Name,
+General,Plant State,
+General,Trim2,
+General,Series2,
+General,Note,
+General,Base Price ($),
+General,Non-Land Use,
+Interior,Entertainment System,
+Interior,Steering Location,
+Interior / Seat,Number of Seats,
+Interior / Seat,Number of Seat Rows,
+Mechanical / Battery,Other Battery Info,
+Mechanical / Battery,Battery Type,
+Mechanical / Battery,Number of Battery Cells per Module,
+Mechanical / Battery,Battery Current (Amps) From,
+Mechanical / Battery,Battery Voltage (Volts) From,
+Mechanical / Battery,Battery Energy (kWh) From,
+Mechanical / Battery,EV Drive Unit,
+Mechanical / Battery,Battery Current (Amps) To,
+Mechanical / Battery,Battery Voltage (Volts) To,
+Mechanical / Battery,Battery Energy (kWh) To,
+Mechanical / Battery,Number of Battery Modules per Pack,
+Mechanical / Battery,Number of Battery Packs per Vehicle,
+Mechanical / Battery / Charger,Charger Level,
+Mechanical / Battery / Charger,Charger Power (kW),
+Mechanical / Brake,Brake System Type,
+Mechanical / Brake,Brake System Description,
+Mechanical / Drivetrain,Drive Type,
+Mechanical / Drivetrain,Axles,
+Mechanical / Drivetrain,Axle Configuration,
+Mechanical / Transmission,Transmission Style,
+Mechanical / Transmission,Transmission Speeds,
+Passive Safety System,Pretensioner,Yes
+Passive Safety System,Seat Belt Type,Manual
+Passive Safety System,Other Restraint System Info,Window Bag
+Passive Safety System / Air Bag Location,Curtain Air Bag Locations,
+Passive Safety System / Air Bag Location,Seat Cushion Air Bag Locations,
+Passive Safety System / Air Bag Location,Front Air Bag Locations,1st Row (Driver and Passenger)
+Passive Safety System / Air Bag Location,Knee Air Bag Locations,1st Row (Driver and Passenger)
+Passive Safety System / Air Bag Location,Side Air Bag Locations,1st and 2nd Rows
