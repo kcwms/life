@@ -232,33 +232,21 @@ Shop: **Mr. Mike** (independent / shade-tree mechanic)
 
 | Date | Part Number | Description | Cost | Status |
 | --- | --- | --- | --- | --- |
-| Jul 21, 2026 | not on record | Throttle body (deceleration-stall fix) | $265.00 | Installed Aug 7, 2026 |
-| Aug 1, 2026 | A 000 158 78 03 (Bosch 0 221 503 035) | Ignition coil | $380.00 | Installed |
-| Aug 8, 2026 | not on record | Front and back brakes | $152.00 | Installed |
-| **Total Paid** |  |  | **$797.00** |  |
-
-**Throttle body — 2026-07-21 ($265.00, paid in advance; installed 2026-08-07).** Intended as the fix for the deceleration stall (leading suspect after the crank sensor and MAF). Work completed by Mr. Mike on Aug 7, 2026.
-
-**Ignition coil — 2026-08-01 ($380.00, paid & installed).** Bosch coil-on-plug (COP), no spark-plug connector.
-
-* Mercedes OEM part no. **A 000 158 78 03** (interchangeable with 000 158 73 03)
-* Bosch part no. **0 221 503 035**
-* ⚠️ Unexpected expense — not part of Mr. Mike's initial diagnosis; came up separately from the stalling work.
-* Note: correct coil for the M112 V6. A failing coil causes misfires and can contribute to rough running/stalling, though this was diagnosed and billed on its own.
-
-**Front and back brakes — 2026-08-08 ($152.00, paid & installed).** Front and rear brake service.
+| Jul 31, 2026 |  | research codes and diagnostic | $265.00 | Installed |
+| Aug 1, 2026 | A 000 158 78 03 (Bosch 0 221 503 035) | Ignition coil * ⚠️ Unexpected expense — not part of Mr. Mike's initial diagnosis; came up separately from the stalling work.| $380.00 | Installed |
+| Aug 8, 2026 | A 005 420 62 00 90 (alt OE 006-420-62-20-41) | Front and back brakes | $152.00 | Installed |
+| Aug 8, 2026 | A 112 141 01 25 (Bosch 0 280 750 019) | Throttle Body replacement | $522.00 | Installed |
+| **Total Paid** |  |  | **$1,317.00** |  |
 
 ---
 
+## Resolved Issues
+| Date | Description |
+| --- | --- | 
+| Aug 8, 2026 | Engine stalling on deceleration |
+
 ## Open / Unresolved Issues
 
-### ⚠️ Engine stalling on deceleration — STILL PRESENT / UNDER EVALUATION
-
-Attempted fixes installed so far:
-
-1. Crankshaft position sensor — 2026-07-21, Birmingham Benz ($358.90 visit)
-2. Mass air flow sensor / air mass meter — 2026-07-27, Birmingham Benz ($388.90 visit)
-3. Throttle body — 2026-08-07, Mr. Mike ($265.00, installed)
 
 **Status:** Evaluate driving performance following the August 7 throttle body installation. If the stall persists after this replacement, next checks include inspecting for vacuum leaks (cracked breather/PCV hoses, intake manifold gaskets — common on the M112 engine).
 
@@ -290,4 +278,5 @@ Ongoing since the 2023 assessment. Birmingham Benz (2026-07-21) confirmed it's n
 | Mr. Mike | — | 7/21/2026 | $265.00 |
 | Mr. Mike | — | 8/1/2026 | $380.00 |
 | Mr. Mike | — | 8/8/2026 | $152.00 |
-| **Grand Total Paid** |  |  | **$3,623.39** |
+| Mr. Mike | — | 8/8/2026 | $520.00 |
+| **Grand Total Paid** |  |  | **$4,143.39** |
