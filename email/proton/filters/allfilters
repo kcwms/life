@@ -1,0 +1,82 @@
+require ["include", "environment", "variables", "relational", "comparator-i;ascii-numeric", "spamtest"];
+require ["fileinto", "imap4flags"];
+
+# Generated: Do not run this script on spam messages
+if allof (environment :matches "vnd.proton.spam-threshold" "*", spamtest :value "ge" :comparator "i;ascii-numeric" "${1}") {
+    return;
+}
+
+/**
+ * @type and
+ * @comparator ends
+*/
+
+if allof (address :all :comparator "i;unicode-casemap" :matches "Delivered-To" "kevcoder@gmail.com") {
+  	fileinto "gmail";
+	return;
+}
+
+if allof (address :all :comparator "i;unicode-casemap" :matches "From" "*@amazon.com") {
+    fileinto "fAmazon";
+    fileinto "amazon";
+} elsif allof (address :all :comparator "i;unicode-casemap" :contains "From" "rawlingscompany") {
+    fileinto "work/fRawlings";
+    fileinto "rawlings";
+} elsif allof (address :all :comparator "i;unicode-casemap" :contains "From" "@eff.org") {
+    fileinto "fEff";
+    fileinto "eff";
+} elsif allof (address :all :comparator "i;unicode-casemap" :contains "From" "@eff.org") {
+    fileinto "fEff";
+    fileinto "eff";
+} elsif allof (address :all :comparator "i;unicode-casemap" :contains "From" "linkedin") {
+    fileinto "flinkedin";
+    fileinto "linkedin";
+} elsif allof (address :all :comparator "i;unicode-casemap" :contains "From" "@stripe.com") {
+    fileinto "fStripe";
+    fileinto "stripe";
+} elsif allof (address :all :comparator "i;unicode-casemap" :contains "From" "namecheap") {
+    fileinto "fNamecheap";
+    fileinto "namecheap";
+} elsif allof (address :all :comparator "i;unicode-casemap" :contains "From" "nacalynx.com") {
+    fileinto "life/fNACA";
+    fileinto "naca";
+}
+ elsif allof (address :all :comparator "i;unicode-casemap" :contains "From" "boostly.co.uk") {
+    fileinto "life/fBoostly";
+    fileinto "boostly";
+}
+ elsif allof (address :all :comparator "i;unicode-casemap" :is "From" "clientservice@republicbank.com") {
+    fileinto "life/fRepublicBank";
+    fileinto "republic-bank";
+}
+ elsif allof (address :all :comparator "i;unicode-casemap" :is "From" "clientservice@republicbank.com", header :comparator "i;unicode-casemap" :contains "Subject" "Transaction Declined") {
+    fileinto "life/fRepublicBank/declined";
+    fileinto "republic-bank";
+}
+ elsif allof (header :comparator "i;unicode-casemap" :is "Subject" "Transaction Pending for card ending in 3112") {
+    fileinto "life/fRepublicBank/kevin";
+    fileinto "republic-bank";
+    fileinto "kevin";
+} elsif allof (address :all :comparator "i;unicode-casemap" :contains "From" "regions.com") {
+    fileinto "life/fRegionsBank";
+    fileinto "regions-bank";
+}
+ elsif allof (address :all :comparator "i;unicode-casemap" :contains "From" "digitalocean") {
+    fileinto "fdigitalOcean";
+    fileinto "digital_ocean";
+}
+ elsif allof (address :all :comparator "i;unicode-casemap" :contains "From" "transunion") {
+    fileinto "transunion";
+}
+ elsif allof (address :all :comparator "i;unicode-casemap" :contains "From" ["The General","tgmark-mkt-prod1@adobe-campaign.com", "no-reply@alerts.thegeneral.com"]) {
+    fileinto "fTheGeneral";
+    fileinto "theGeneral";
+}
+ elsif anyof (address :all :comparator "i;unicode-casemap" :contains "From" "machinify", header :comparator "i;unicode-casemap" :contains "Subject" ["dse@docusign.net", "separation"]) {
+    fileinto "work/fMachinify/fMachinify-Separation";
+    fileinto "Machinify";
+}
+
+else {
+    fileinto "fMain";
+}
